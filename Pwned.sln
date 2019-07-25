@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Pwned", "Check Pwned\Check Pwned.csproj", "{A3489071-64B5-4A75-A5EB-3C82CD663FAD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3489071-64B5-4A75-A5EB-3C82CD663FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3489071-64B5-4A75-A5EB-3C82CD663FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3489071-64B5-4A75-A5EB-3C82CD663FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3489071-64B5-4A75-A5EB-3C82CD663FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
