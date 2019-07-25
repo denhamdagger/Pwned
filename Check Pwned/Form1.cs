@@ -29,11 +29,11 @@ namespace Check_Pwned
                 GetHash.Enabled = false;
 
                 GenerateShaHash(SHA1.Create());
-                //GenerateShaHash(SHA256.Create());
-                //GenerateShaHash(SHA384.Create());
-                //GenerateShaHash(SHA512.Create());
-                //GenerateShaHash(MD5.Create());
-                //GenerateBCryptHash();
+                GenerateShaHash(SHA256.Create());
+                GenerateShaHash(SHA384.Create());
+                GenerateShaHash(SHA512.Create());
+                GenerateShaHash(MD5.Create());
+                GenerateBCryptHash();
             }
             finally
             {
